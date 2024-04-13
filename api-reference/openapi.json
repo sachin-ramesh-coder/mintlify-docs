@@ -266,7 +266,7 @@
             "default"
           ],
           "summary": "get-status",
-          "description": "Get current worker status. This can be used to verify, the curent status of whatsapp login. We need to login to dashboard if curren status is not successChat",
+          "description": "Retrieve Current Worker Status. This function is utilized to ascertain the present status of WhatsApp login. If the current status indicates anything other than success, it prompts a login action to the dashboard.",
           "parameters": [
             {
               "name": "Authorization",

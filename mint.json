@@ -40,7 +40,7 @@
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://wato.ai/blog"
+      "url": "https://wato.ai/blogs"
     }
   ],
   "navigation": [
@@ -70,17 +70,61 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Endpoints",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/authorize_user",
+        "api-reference/endpoint/create_user",
+        "api-reference/endpoint/create-community",
+        "api-reference/endpoint/get-all-communities",
+        "api-reference/endpoint/add-campaign-send-now",
+        "api-reference/endpoint/add-campaign-schedule",
+        "api-reference/endpoint/create-channel",
+        "api-reference/endpoint/get-campaign-group-analytics",
+        "api-reference/endpoint/get-campaigns",
+        "api-reference/endpoint/get-status",
+        "api-reference/endpoint/refresh-community-metadata"
+      ]
+    },
+    {
+      "group": "Endpoints",
+      "pages": [
+        {
+          "group": "User",
+          "pages": [
+            "api-reference/endpoint/authorize_user",
+            "api-reference/endpoint/create_user",
+            "api-reference/endpoint/get-status"
+          ]
+        },
+        {
+          "group": "Communities",
+          "pages": [
+            "api-reference/endpoint/create-community",
+            "api-reference/endpoint/get-all-communities",
+            "api-reference/endpoint/refresh-community-metadata"
+          ]
+        },
+        {
+          "group": "Campaigns",
+          "pages": [
+            "api-reference/endpoint/add-campaign-send-now",
+            "api-reference/endpoint/add-campaign-schedule",
+            "api-reference/endpoint/get-campaign-group-analytics",
+            "api-reference/endpoint/get-campaigns"
+          ]
+        },
+        {
+          "group": "Channels",
+          "pages": [
+            "api-reference/endpoint/create-channel"
+          ]
+        }
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
+    "x": "https://twitter.com/wato_ai",
     "github": "https://github.com/wato-ai",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "linkedin": "https://www.linkedin.com/company/wato-ai/"
   }
 }
