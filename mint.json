@@ -72,22 +72,6 @@
     {
       "group": "Endpoints",
       "pages": [
-        "api-reference/endpoint/authorize_user",
-        "api-reference/endpoint/create_user",
-        "api-reference/endpoint/create-community",
-        "api-reference/endpoint/get-all-communities",
-        "api-reference/endpoint/add-campaign-send-now",
-        "api-reference/endpoint/add-campaign-schedule",
-        "api-reference/endpoint/create-channel",
-        "api-reference/endpoint/get-campaign-group-analytics",
-        "api-reference/endpoint/get-campaigns",
-        "api-reference/endpoint/get-status",
-        "api-reference/endpoint/refresh-community-metadata"
-      ]
-    },
-    {
-      "group": "Endpoints",
-      "pages": [
         {
           "group": "User",
           "pages": [
