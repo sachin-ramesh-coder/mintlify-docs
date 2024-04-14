@@ -74,6 +74,7 @@
       "pages": [
         {
           "group": "User",
+          "icon": "user",
           "pages": [
             "api-reference/endpoint/authorize_user",
             "api-reference/endpoint/create_user",
@@ -82,6 +83,7 @@
         },
         {
           "group": "Communities",
+          "icon": "people-group",
           "pages": [
             "api-reference/endpoint/create-community",
             "api-reference/endpoint/get-all-communities",
@@ -90,6 +92,7 @@
         },
         {
           "group": "Campaigns",
+          "icon": "megaphone",
           "pages": [
             "api-reference/endpoint/add-campaign-send-now",
             "api-reference/endpoint/add-campaign-schedule",
@@ -99,6 +102,7 @@
         },
         {
           "group": "Channels",
+          "icon": "whatsapp",
           "pages": [
             "api-reference/endpoint/create-channel"
           ]
