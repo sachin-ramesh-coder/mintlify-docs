@@ -1,33 +1,68 @@
 ---
 title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+description: 'Welcome to the WATO API Documentation!'
 ---
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  This section provides an overview of the API endpoints available for integration. If you're looking to understand how to interact with our API, you're in the right place!
 </Note>
 
-## Welcome
+## What is WATO?
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+WATO is a powerful SaaS platform that helps you manage your WhatsApp communities, groups, and streamline communication with your customers on WhatsApp. Our API provides developers with the tools they need to integrate WATO's functionality directly into their own applications.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
+## Getting Started
 
-## Authentication
+To get started using the WATO API, you'll need to sign up for an API key. Once you have your API key, you'll be able to authenticate requests and access the full range of WATO's features.
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+## Documentation Structure
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+Our documentation is organized into several sections, each covering different aspects of the WATO API:
+
+- **Introduction**: You're here! This section provides an overview of the WATO API and how to get started.
+- **Authentication**: Learn how to authenticate your requests to the WATO API using your API key.
+- **Endpoints**: Explore the various endpoints available in the WATO API and learn how to use them to interact with your WhatsApp communities and groups.
+- **Examples**: Get started quickly with our collection of code examples demonstrating common API use cases.
+- **FAQ**: Have questions? Check out our FAQ section for answers to common queries.
+
+
+
+## Endpoints
+
+<CardGroup cols={2}>
+  <Card
+    title="User"
+    icon="user"
+    href="endpoint/authorize_user"
+  >
+    Manage user authentication related API
+  </Card>
+  <Card
+    title="Community"
+    icon="people-group"
+    href="endpoint/create-community"
+  >
+    Managing community related API
+  </Card>
+</CardGroup>
+
+<CardGroup cols={2}>
+  <Card
+    title="Campaigns"
+    icon="megaphone"
+    href="endpoint/add-campaign-send-now"
+  >
+    Manage Campaigns(messages) related API
+  </Card>
+  <Card
+    title="Channels"
+    icon="whatsapp"
+    href="endpoint/create-channel"
+  >
+    Create New Whatsapp Channels
+  </Card>
+</CardGroup>
+
+## Need Help?
+
+If you have any questions or need assistance while integrating the WATO API into your application, don't hesitate to reach out to our support team at [info@wato.ai](mailto:info@wato.ai). We're here to help!

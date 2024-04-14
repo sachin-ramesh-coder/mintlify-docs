@@ -25,7 +25,7 @@
                   "type": "object",
                   "example": {
                     "password": "<Your-password>",
-                    "user_name": "test"
+                    "user_name": "<Your-username>"
                   }
                 }
               }
@@ -97,12 +97,12 @@
                       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImdhdXJhdkBqeW90aXN5YS5haSIsInVzZXJfbmFtZSI6ImhnbGkiLCJwaG9uZV9udW1iZXIiOiI5MTgzNDA1NjIwMzYiLCJmaXJzdF9uYW1lIjoiR2F1cmF2IiwibGFzdF9uYW1lIjoiS3VtYXIiLCJ3aGFyc2FwcF9udW1iZXIiOiI5MTc2NzY1ODQ2MDIiLCJpc19maXJzdF9sb2dpbiI6ZmFsc2UsImlhdCI6MTcwOTU0NzAxMywiZXhwIjoxNzI1MDk5MDEzLCJpc3MiOiJhcGkud2F0by5haSJ9.o_W-5oMzZMbESnhWfOeSYJ2iFjCWZv8G47spseqgLnE",
                       "user_info": {
                         "user_id": 1,
-                        "email": "gaurav@jyotisya.ai",
-                        "user_name": "hgli",
-                        "phone_number": "918340562036",
-                        "first_name": "Gaurav",
-                        "last_name": "Kumar",
-                        "wharsapp_number": "917676584602",
+                        "email": "abc@xyz.com",
+                        "user_name": "<username>",
+                        "phone_number": "<phone_number>",
+                        "first_name": "<first_name>",
+                        "last_name": "<last_name>",
+                        "wharsapp_number": "<whatsapp_number>",
                         "is_first_login": false
                       }
                     }
@@ -362,8 +362,8 @@
                 "schema": {
                   "type": "object",
                   "example": {
-                    "description": "from new aws",
-                    "community_name": "tufd - 89.x@"
+                    "description": "<Give a Nice Description>",
+                    "community_name": "<Community Name>"
                   }
                 }
               }
