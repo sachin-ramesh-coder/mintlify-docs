@@ -33,11 +33,6 @@
   ],
   "anchors": [
     {
-      "name": "Knowledge Base",
-      "icon": "book-open-cover",
-      "url": "https://wato-ai.gitbook.io/wato.ai"
-    },
-    {
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://wato.ai/blogs"
@@ -55,7 +50,8 @@
       "pages": [
         "essentials/signup_and_signin",
         "essentials/create_first_community",
-        "essentials/create_campign"
+        "essentials/create_campign",
+        "essentials/Invite_people"
       ]
     },
     {
